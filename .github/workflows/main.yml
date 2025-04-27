@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: step-1
-        run: echo "Hello World! ${{VARTEST}}"
+        run: echo "Hello World! ${{env_testrep.VARTEST}}"
